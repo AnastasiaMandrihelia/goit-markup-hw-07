@@ -81,7 +81,7 @@ body {
 
   color: var(--accent-color);
 }
-.studio {
+.logo__studio {
   font-family: 'Raleway', sans-serif;
 
   font-weight: 700;
@@ -93,7 +93,7 @@ body {
   color: var(--primary-text-color-dark);
 }
 
-.menu-link {
+.menu__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -118,8 +118,8 @@ body {
   color: var(--accent-color);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu__link:hover,
+.menu__link:focus {
   color: var(--accent-color);
 }
 .mail-link {
@@ -160,10 +160,10 @@ body {
   align-items: center;
 }
 
-.menu-list:not(:last-child) {
+.menu__list:not(:last-child) {
   margin-right: 50px;
 }
-.info-list {
+.navigation__list {
   margin-right: 50px;
 }
 .navigation {
@@ -171,7 +171,7 @@ body {
   padding-top: 0;
 }
 
-.novigation-icon {
+.novigation__icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -180,8 +180,8 @@ body {
   fill: var(--accent-color);
 }
 
-.info-list:hover .novigation-icon,
-.info-list:focus .novigation-icon {
+.navigation__list:hover .novigation-icon,
+.navigation__list:focus .novigation-icon {
   fill: var(--accent-color);
 }
 
